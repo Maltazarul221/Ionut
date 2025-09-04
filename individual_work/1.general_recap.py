@@ -9,3 +9,4 @@ y = "John"
 
 print(x)
 print(y)
+print("Hey John!")
