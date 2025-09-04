@@ -10,3 +10,6 @@ y = "John"
 print(x)
 print(y)
 print("Hey John!")
+print(type("Hey John!"))
+print(type(x))
+print(type(y))
