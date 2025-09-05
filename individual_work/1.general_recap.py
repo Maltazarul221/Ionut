@@ -51,5 +51,7 @@ myVar = "John"
 MYVAR = "John"
 myvar2 = "John"
 
+# Asign multiple values to variables:
+# Python allows us to asign values to multiple variables in one line
 
 
