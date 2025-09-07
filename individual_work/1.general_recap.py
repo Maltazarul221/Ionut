@@ -96,3 +96,51 @@ x = "Python"
 y = " is"
 z = " awesome"
 print(x + y + z)
+
+#Global variables
+#that are created outside a function (as in all the examples in the previous pages) are known as global variables.
+#Global variables can be used by everyone, both inside of functions and outside.
+
+x = "Awesome"
+
+def myfunc():
+    print("Python is " + x)
+
+myfunc()
+
+#If you create a variable with the same name inside a function, this variable will be local, and can only be used inside the function.
+# The global variable with the same name will remain as it was, global and with the original value.
+
+x = "Awesome"
+
+def myfunc():
+    x = "Fantastic"
+    print("Python is " + x)
+
+myfunc()
+print("Python is " + x)
+
+# Global Keyword
+# Normally, when you create a variable inside a function, that variable is local, and can only be used inside that function.
+# To create a global variable inside a function, you can use the global keyword.
+# Example:
+
+def myfunc():
+    global x
+    x = "Fantastic!"
+
+myfunc()
+print("Python is " + x)
+
+#Also, use the global keyword if you want to change a global variable inside a function.
+#To change the value of a global variable inside a function, refer to the variable by using the global keyword:
+
+x = "Awesome!!"
+
+def myfunc():
+    global x
+    x = "Double Awesome!!!"
+
+myfunc()
+
+print("Python is " + x)
