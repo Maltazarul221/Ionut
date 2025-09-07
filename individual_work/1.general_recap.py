@@ -68,7 +68,8 @@ print(y)
 print(z)
 
 #Unpack a collection
-#If you have a collection of values in a list, tuple etc. Python allows you to extract the values into variables. This is called unpacking.
+#If you have a collection of values in a list, tuple etc. Python allows you to extract the values into variables.
+# This is called unpacking.
 
 fruits = ["Apple", "Banana", "Cherry"]
 x,y,z = fruits
@@ -108,7 +109,8 @@ def myfunc():
 
 myfunc()
 
-#If you create a variable with the same name inside a function, this variable will be local, and can only be used inside the function.
+#If you create a variable with the same name inside a function, this variable will be local,
+# and can only be used inside the function.
 # The global variable with the same name will remain as it was, global and with the original value.
 
 x = "Awesome"
@@ -121,7 +123,8 @@ myfunc()
 print("Python is " + x)
 
 # Global Keyword
-# Normally, when you create a variable inside a function, that variable is local, and can only be used inside that function.
+# Normally, when you create a variable inside a function, that variable is local,
+# and can only be used inside that function.
 # To create a global variable inside a function, you can use the global keyword.
 # Example:
 
@@ -144,3 +147,98 @@ def myfunc():
 myfunc()
 
 print("Python is " + x)
+
+#Python data types#
+#Build in data types:
+
+#Text type: str
+x = "Hello World"
+print(x)
+
+#Numeric type: int
+x = 20
+print(x)
+
+#Numeric type: float
+x = 21.5
+print(x)
+
+#Numeric type : complex
+x = 1j
+print(x)
+
+#Sequence types: list
+x = ["Apple", "Banana", "Cherry"]
+print(x)
+
+#Sequence types: tuple
+x = ("Apple", "Banana", "Cherry")
+print(x)
+
+#Sequence types: range
+x = range(6)
+print(x)
+
+#Mapping type: dic
+x = {"Name": "John", "Age": 34}
+print(x)
+
+#set type: set
+x = {"Apple", "Banana", "Cherry"}
+print(x)
+
+#set type:frozenset
+x = frozenset({"apple", "banana", "cherry"})
+print(x)
+
+#Boolean type: bool
+x = True
+print(x)
+
+#Binary type: bytes
+x = b"Hello"
+print(x)
+
+#Binary type: bytearray
+x = bytearray(5)
+print(x)
+
+#Binary type: memory
+x = memoryview(bytes(5))
+print(x)
+
+#None type: NoneType
+x = None
+print(x)
+
+#Setting the specific data types:
+
+x = str("Hello World")
+print(x)
+x = int(20)
+print(x)
+x = float(20.5)
+print(x)
+x = complex(1j)
+print(x)
+x = list(("apple", "banana", "cherry"))
+print(x)
+x = tuple(("apple", "banana", "cherry"))
+print(x)
+x = range(18)
+print(x)
+x = dict(name="John", age=36)
+print(x)
+x = {"apple", "banana", "cherry"}
+print(x)
+x = frozenset(("apple", "banana", "cherry"))
+print(x)
+x = bool(5)
+print(x)
+x = bytes(10)
+print(x)
+x = bytearray(12)
+print(x)
+x = memoryview(bytes(5))
+
+
