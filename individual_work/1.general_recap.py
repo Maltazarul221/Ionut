@@ -54,4 +54,45 @@ myvar2 = "John"
 # Asign multiple values to variables:
 # Python allows us to asign values to multiple variables in one line
 
+x , y , z , = "Orange", "Banana", "Cherry"
+print(x)
+print(y)
+print(z)
 
+# One value to multiple variables:
+
+x = y = z = "Orange"
+
+print(x)
+print(y)
+print(z)
+
+#Unpack a collection
+#If you have a collection of values in a list, tuple etc. Python allows you to extract the values into variables. This is called unpacking.
+
+fruits = ["Apple", "Banana", "Cherry"]
+x,y,z = fruits
+
+print(x)
+print(y)
+print(z)
+
+# Output variables:
+# In python print() is often used to output variables:
+
+x = "Python is awesome"
+print(x)
+
+# we can output multiple variables separeted by comma:
+
+x = "Python"
+y = "is"
+z = "awesome"
+print(x,y,z)
+
+#we cal also use the operator + for the same@
+
+x = "Python"
+y = " is"
+z = " awesome"
+print(x + y + z)
