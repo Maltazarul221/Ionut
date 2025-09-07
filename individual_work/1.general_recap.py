@@ -241,4 +241,87 @@ x = bytearray(12)
 print(x)
 x = memoryview(bytes(5))
 
+#Python Numbers:
+#There are 3 numeric types in Python:
 
+a = 1 # int
+b = 2.8 # float
+c = 1j # complex
+
+#Int
+#Int, or integer, is a whole number, positive or negative, without decimals, of unlimited length.
+
+d = 1
+e = 3474827471246
+f = -2134144
+
+print(type(d))
+print(type(e))
+print(type(f))
+
+#Float
+#Float, or "floating point number" is a number, positive or negative, containing one or more decimals.
+
+m = 1.10
+n = 1.1
+o = -25.32
+
+print(type(m))
+print(type(n))
+print(type(o))
+
+#Float can also be scientific numbers with an "e" to indicate the power of 10.
+
+x = 35e4
+y = 12E4
+Z = -87.7e100
+
+print(type(x))
+print(type(y))
+print(type(z))
+
+#Complex
+#Complex numbers are written with a "j" as the imaginary part:
+
+x = 3+5j
+y = 5j
+z = -5j
+
+print(type(x))
+print(type(y))
+print(type(z))
+
+#Type Conversion
+#You can convert from one type to another with the int(), float(), and complex() methods:
+
+x = 1    # int
+y = 2.8  # float
+z = 1j   # complex
+
+#convert from int to float:
+a = float(x)
+
+#convert from float to int:
+b = int(y)
+
+#convert from int to complex:
+c = complex(x)
+
+print(a)
+print(b)
+print(c)
+
+print(type(a))
+print(type(b))
+print(type(c))
+
+#Random Number@
+#Python does not have a random() function to make a random number,
+# but Python has a built-in module called random that can be used to make random numbers:
+
+import random
+print(random.randrange(1 , 15))
+
+z = 5
+z = float(z)
+print(z)
