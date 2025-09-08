@@ -361,3 +361,30 @@ x = str("s1")
 y = str(2)
 z = str(3.0)
 print(z,y,z)
+
+#Python Strings
+#Strings in python are surrounded by either single quotation marks, or double quotation marks.
+#'hello' is the same as "hello".
+#You can display a string literal with the print() function:
+
+print("Hello")
+print('Hello')
+
+#Quotes insite quotes:
+
+print("It's alright")
+print("He is called 'Johny'")
+print('He is called "Johny"')
+
+#Assign string to a variable
+
+a = "Hello"
+print(a)
+
+#Multiple Strings
+#We can use three double quotes:
+
+a = """this is just  text
+to prrove the 3 double quotes"""
+
+print(a)
